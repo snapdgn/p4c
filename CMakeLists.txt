@@ -452,6 +452,7 @@ endforeach(ext)
 add_subdirectory (frontends)
 add_subdirectory (midend)
 add_subdirectory (control-plane)
+add_subdirectory (p4fmt)
 
 # With the current implementation of ir-generator, all targets share the
 # same ir-generated.h and ir-generated.cpp file, which means all targets
