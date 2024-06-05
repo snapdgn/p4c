@@ -65,6 +65,7 @@ void InputSources::addComment(SourceInfo srcInfo, bool singleLine, cstring body)
         // Drop the "*/"
         body = body.exceptLast(2);
     auto comment = new Comment(srcInfo, singleLine, body);
+    comment->dbprint(std::cout);
     comments.push_back(comment);
 }
 
