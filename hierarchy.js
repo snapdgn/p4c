@@ -22,8 +22,6 @@ var hierarchy =
     ] ],
     [ "BMV2::CFG::Edge", "class_b_m_v2_1_1_c_f_g_1_1_edge.html", null ],
     [ "BMV2::ConversionContext", "struct_b_m_v2_1_1_conversion_context.html", null ],
-    [ "BMV2::DirectMeterMap", "class_b_m_v2_1_1_direct_meter_map.html", null ],
-    [ "BMV2::DirectMeterMap::DirectMeterInfo", "struct_b_m_v2_1_1_direct_meter_map_1_1_direct_meter_info.html", null ],
     [ "BMV2::ExternConverter", "class_b_m_v2_1_1_extern_converter.html", null ],
     [ "BMV2::Helpers::CounterlikeTraits< Kind >", "struct_b_m_v2_1_1_helpers_1_1_counterlike_traits.html", null ],
     [ "BMV2::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::PSA > >", "struct_b_m_v2_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_counter_extern_3_01_standard_1_1_arch_1_1_p_s_a_01_4_01_4.html", null ],
@@ -34,13 +32,6 @@ var hierarchy =
     [ "BMV2::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::V1MODEL2020 > >", "struct_b_m_v2_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_meter_extern_3_01_standard_1_ca99f14e6e28c57a50cf669fc916988e.html", null ],
     [ "BMV2::JsonObjects", "class_b_m_v2_1_1_json_objects.html", null ],
     [ "BMV2::MatchImplementation", "class_b_m_v2_1_1_match_implementation.html", null ],
-    [ "BMV2::ProgramStructure", "class_b_m_v2_1_1_program_structure.html", [
-      [ "BMV2::PsaProgramStructure", "class_b_m_v2_1_1_psa_program_structure.html", [
-        [ "BMV2::PsaCodeGenerator", "class_b_m_v2_1_1_psa_code_generator.html", null ]
-      ] ],
-      [ "BMV2::V1ProgramStructure", "class_b_m_v2_1_1_v1_program_structure.html", null ],
-      [ "TC::PnaProgramStructure", "class_t_c_1_1_pna_program_structure.html", null ]
-    ] ],
     [ "BMV2::Standard::ActionProfileTraits< arch >", "struct_b_m_v2_1_1_standard_1_1_action_profile_traits.html", null ],
     [ "BMV2::Standard::ActionProfileTraits< Arch::PSA >", "struct_b_m_v2_1_1_standard_1_1_action_profile_traits_3_01_arch_1_1_p_s_a_01_4.html", [
       [ "BMV2::Standard::ActionSelectorTraits< Arch::PSA >", "struct_b_m_v2_1_1_standard_1_1_action_selector_traits_3_01_arch_1_1_p_s_a_01_4.html", null ]
@@ -157,7 +148,8 @@ var hierarchy =
         [ "P4CContext", "class_p4_c_context.html", [
           [ "P4CContextWithOptions< OptionsType >", "class_p4_c_context_with_options.html", null ],
           [ "P4Tools::CompileContext< OptionsType >", "class_p4_tools_1_1_compile_context.html", null ]
-        ] ]
+        ] ],
+        [ "RefCheckContext", "class_ref_check_context.html", null ]
       ] ]
     ] ],
     [ "IHasDbPrint", "class_i_has_db_print.html", [
@@ -304,6 +296,7 @@ var hierarchy =
     [ "JSONLoader", "class_j_s_o_n_loader.html", null ],
     [ "Log::Detail::LevelAndOutput", "struct_log_1_1_detail_1_1_level_and_output.html", null ],
     [ "Log::Detail::OutputLogPrefix", "class_log_1_1_detail_1_1_output_log_prefix.html", null ],
+    [ "LogAbbrev", "struct_log_abbrev.html", null ],
     [ "MapForKey< M >", "class_map_for_key.html", null ],
     [ "match_t", "structmatch__t.html", null ],
     [ "Model::Elem", "struct_model_1_1_elem.html", [
@@ -368,10 +361,10 @@ var hierarchy =
     [ "ordered_map< const IR::IDeclaration *, unsigned int >", "classordered__map.html", null ],
     [ "ordered_map< const IR::ITypeVar *, const IR::Type * >", "classordered__map.html", null ],
     [ "ordered_map< const IR::MethodCallExpression *, P4::FunctionSpecialization * >", "classordered__map.html", null ],
-    [ "ordered_map< const IR::Node *, BMV2::block_t >", "classordered__map.html", null ],
+    [ "ordered_map< const IR::Node *, block_t >", "classordered__map.html", null ],
     [ "ordered_map< const IR::Node *, const IR::CompileTimeValue * >", "classordered__map.html", null ],
     [ "ordered_map< const IR::Node *, const IR::P4Action * >", "classordered__map.html", null ],
-    [ "ordered_map< const IR::Node *, ordered_set< const P4::ComputeDefUse::loc_t * > >", "classordered__map.html", null ],
+    [ "ordered_map< const IR::Node *, ordered_set >", "classordered__map.html", null ],
     [ "ordered_map< const IR::Node *, P4::SpecializationInfo * >", "classordered__map.html", null ],
     [ "ordered_map< const IR::Node *, std::pair< gress_t, block_t > >", "classordered__map.html", null ],
     [ "ordered_map< const IR::P4Action *, const IR::P4Action * >", "classordered__map.html", null ],
@@ -434,7 +427,7 @@ var hierarchy =
     [ "ordered_set< BMV2::CFG::Node * >", "classordered__set.html", null ],
     [ "ordered_set< const IR::FieldList * >", "classordered__set.html", null ],
     [ "ordered_set< const IR::Parameter * >", "classordered__set.html", null ],
-    [ "ordered_set< const P4::ComputeDefUse::loc_t * >", "classordered__set.html", null ],
+    [ "ordered_set< const loc_t * >", "classordered__set.html", null ],
     [ "ordered_set< const P4::StorageLocation * >", "classordered__set.html", null ],
     [ "ordered_set< cstring >", "classordered__set.html", null ],
     [ "P4::AbstractParserDriver", "class_p4_1_1_abstract_parser_driver.html", [
@@ -603,6 +596,7 @@ var hierarchy =
         [ "P4::FindGlobalActionUses", "class_p4_1_1_find_global_action_uses.html", null ],
         [ "P4::FindRepeatedActionUses", "class_p4_1_1_find_repeated_action_uses.html", null ],
         [ "P4::FindSpecializations", "class_p4_1_1_find_specializations.html", null ],
+        [ "P4::HasTableApply", "class_p4_1_1_has_table_apply.html", null ],
         [ "P4::InstantiateDirectCalls", "class_p4_1_1_instantiate_direct_calls.html", null ],
         [ "P4::KeySideEffect", "class_p4_1_1_key_side_effect.html", [
           [ "DPDK::CopyMatchKeysToSingleStruct", "class_d_p_d_k_1_1_copy_match_keys_to_single_struct.html", null ]
@@ -613,8 +607,6 @@ var hierarchy =
         [ "P4::RenameSymbols", "class_p4_1_1_rename_symbols.html", null ],
         [ "P4::ResolveReferences", "class_p4_1_1_resolve_references.html", null ],
         [ "P4::SubstituteParameters", "class_p4_1_1_substitute_parameters.html", null ],
-        [ "P4::TablesInActions", "class_p4_1_1_tables_in_actions.html", null ],
-        [ "P4::TablesInKeys", "class_p4_1_1_tables_in_keys.html", null ],
         [ "P4::TypeInference", "class_p4_1_1_type_inference.html", null ],
         [ "P4::UnrollLoops", "class_p4_1_1_unroll_loops.html", null ]
       ] ]
@@ -622,6 +614,8 @@ var hierarchy =
     [ "P4::DiagnosticCountInfo", "struct_p4_1_1_diagnostic_count_info.html", null ],
     [ "P4::DiagnosticCountInfoGuard", "struct_p4_1_1_diagnostic_count_info_guard.html", null ],
     [ "P4::DiagnosticCountInfoState", "struct_p4_1_1_diagnostic_count_info_state.html", null ],
+    [ "P4::DirectMeterMap", "class_p4_1_1_direct_meter_map.html", null ],
+    [ "P4::DirectMeterMap::DirectMeterInfo", "struct_p4_1_1_direct_meter_map_1_1_direct_meter_info.html", null ],
     [ "P4::DoSingleArgumentSelect::Pair", "struct_p4_1_1_do_single_argument_select_1_1_pair.html", null ],
     [ "P4::EnumRepresentation", "class_p4_1_1_enum_representation.html", null ],
     [ "P4::ExternInstance", "struct_p4_1_1_extern_instance.html", null ],
@@ -660,6 +654,13 @@ var hierarchy =
     [ "P4::ParserStructure", "class_p4_1_1_parser_structure.html", null ],
     [ "P4::ParserStructureImpl::ParserSymbolicInterpreter", "class_p4_1_1_parser_structure_impl_1_1_parser_symbolic_interpreter.html", null ],
     [ "P4::PerInstanceSubstitutions", "struct_p4_1_1_per_instance_substitutions.html", null ],
+    [ "P4::ProgramStructure", "class_p4_1_1_program_structure.html", [
+      [ "BMV2::V1ProgramStructure", "class_b_m_v2_1_1_v1_program_structure.html", null ],
+      [ "P4::PsaProgramStructure", "class_p4_1_1_psa_program_structure.html", [
+        [ "BMV2::PsaCodeGenerator", "class_b_m_v2_1_1_psa_code_generator.html", null ]
+      ] ],
+      [ "TC::PnaProgramStructure", "class_t_c_1_1_pna_program_structure.html", null ]
+    ] ],
     [ "P4::RemoveComplexExpressionsPolicy", "class_p4_1_1_remove_complex_expressions_policy.html", [
       [ "BMV2::ProcessControls", "class_b_m_v2_1_1_process_controls.html", null ],
       [ "DPDK::ProcessControls", "class_d_p_d_k_1_1_process_controls.html", null ]
@@ -854,7 +855,10 @@ var hierarchy =
         [ "EBPF::EBPFObject", "class_e_b_p_f_1_1_e_b_p_f_object.html", [
           [ "EBPF::EBPFChecksumPSA", "class_e_b_p_f_1_1_e_b_p_f_checksum_p_s_a.html", [
             [ "EBPF::EBPFHashPSA", "class_e_b_p_f_1_1_e_b_p_f_hash_p_s_a.html", null ],
-            [ "EBPF::EBPFInternetChecksumPSA", "class_e_b_p_f_1_1_e_b_p_f_internet_checksum_p_s_a.html", null ]
+            [ "EBPF::EBPFInternetChecksumPSA", "class_e_b_p_f_1_1_e_b_p_f_internet_checksum_p_s_a.html", null ],
+            [ "TC::EBPFChecksumPNA", "class_t_c_1_1_e_b_p_f_checksum_p_n_a.html", [
+              [ "TC::EBPFInternetChecksumPNA", "class_t_c_1_1_e_b_p_f_internet_checksum_p_n_a.html", null ]
+            ] ]
           ] ],
           [ "EBPF::EBPFControl", "class_e_b_p_f_1_1_e_b_p_f_control.html", [
             [ "EBPF::EBPFControlPSA", "class_e_b_p_f_1_1_e_b_p_f_control_p_s_a.html", [
@@ -887,7 +891,8 @@ var hierarchy =
                 [ "TC::CRC32ChecksumAlgorithmPNA", "class_t_c_1_1_c_r_c32_checksum_algorithm_p_n_a.html", null ]
               ] ]
             ] ],
-            [ "EBPF::InternetChecksumAlgorithm", "class_e_b_p_f_1_1_internet_checksum_algorithm.html", null ]
+            [ "EBPF::InternetChecksumAlgorithm", "class_e_b_p_f_1_1_internet_checksum_algorithm.html", null ],
+            [ "TC::InternetChecksumAlgorithmPNA", "class_t_c_1_1_internet_checksum_algorithm_p_n_a.html", null ]
           ] ],
           [ "EBPF::EBPFMethodDeclaration", "class_e_b_p_f_1_1_e_b_p_f_method_declaration.html", null ],
           [ "EBPF::EBPFParser", "class_e_b_p_f_1_1_e_b_p_f_parser.html", [
@@ -1202,6 +1207,8 @@ var hierarchy =
     [ "Test::P4ToolsTestCase", "class_test_1_1_p4_tools_test_case.html", null ],
     [ "testing::Test", null, [
       [ "Test::P4CReachability", "class_test_1_1_p4_c_reachability.html", null ],
+      [ "Test::P4SmithForInLoopTest", "class_test_1_1_p4_smith_for_in_loop_test.html", null ],
+      [ "Test::P4SmithForLoopTest", "class_test_1_1_p4_smith_for_loop_test.html", null ],
       [ "Test::P4ToolsTest", "class_test_1_1_p4_tools_test.html", [
         [ "Test::FormatTest", "class_test_1_1_format_test.html", null ],
         [ "Test::P4AssertsParserTest", "class_test_1_1_p4_asserts_parser_test.html", null ],
@@ -1487,20 +1494,16 @@ var hierarchy =
       [ "DynamicVisitor", "class_dynamic_visitor.html", null ],
       [ "Inspector", "class_inspector.html", [
         [ "BMV2::ActionConverter", "class_b_m_v2_1_1_action_converter.html", null ],
-        [ "BMV2::BuildResourceMap", "class_b_m_v2_1_1_build_resource_map.html", null ],
         [ "BMV2::CheckUnsupported", "class_b_m_v2_1_1_check_unsupported.html", null ],
         [ "BMV2::ControlConverter< arch >", "class_b_m_v2_1_1_control_converter.html", null ],
         [ "BMV2::ConvertGlobals", "class_b_m_v2_1_1_convert_globals.html", null ],
         [ "BMV2::ConvertPsaToJson", "class_b_m_v2_1_1_convert_psa_to_json.html", null ],
         [ "BMV2::DeparserConverter", "class_b_m_v2_1_1_deparser_converter.html", null ],
-        [ "BMV2::DiscoverStructure", "class_b_m_v2_1_1_discover_structure.html", null ],
         [ "BMV2::ExpressionConverter", "class_b_m_v2_1_1_expression_converter.html", [
           [ "BMV2::PsaSwitchExpressionConverter", "class_b_m_v2_1_1_psa_switch_expression_converter.html", null ],
           [ "BMV2::SimpleSwitchExpressionConverter", "class_b_m_v2_1_1_simple_switch_expression_converter.html", null ]
         ] ],
         [ "BMV2::HeaderConverter", "class_b_m_v2_1_1_header_converter.html", null ],
-        [ "BMV2::InspectPsaProgram", "class_b_m_v2_1_1_inspect_psa_program.html", null ],
-        [ "BMV2::ParsePsaArchitecture", "class_b_m_v2_1_1_parse_psa_architecture.html", null ],
         [ "BMV2::ParseV1Architecture", "class_b_m_v2_1_1_parse_v1_architecture.html", null ],
         [ "BMV2::ParserConverter", "class_b_m_v2_1_1_parser_converter.html", null ],
         [ "BMV2::SharedActionSelectorCheck< arch >", "class_b_m_v2_1_1_shared_action_selector_check.html", null ],
@@ -1584,6 +1587,7 @@ var hierarchy =
         [ "InspectDpdkProgram", "class_inspect_dpdk_program.html", null ],
         [ "P4::AnalyzeParser", "class_p4_1_1_analyze_parser.html", null ],
         [ "P4::ApplyOptionsPragmas", "class_p4_1_1_apply_options_pragmas.html", null ],
+        [ "P4::BuildResourceMap", "class_p4_1_1_build_resource_map.html", null ],
         [ "P4::CheckExternInvocationCommon", "class_p4_1_1_check_extern_invocation_common.html", [
           [ "DPDK::CheckPNAExternInvocation", "class_d_p_d_k_1_1_check_p_n_a_extern_invocation.html", null ]
         ] ],
@@ -1600,6 +1604,7 @@ var hierarchy =
         [ "P4::DiscoverActionsInlining", "class_p4_1_1_discover_actions_inlining.html", null ],
         [ "P4::DiscoverFunctionsInlining", "class_p4_1_1_discover_functions_inlining.html", null ],
         [ "P4::DiscoverInlining", "class_p4_1_1_discover_inlining.html", null ],
+        [ "P4::DiscoverStructure", "class_p4_1_1_discover_structure.html", null ],
         [ "P4::DoCheckConstants", "class_p4_1_1_do_check_constants.html", null ],
         [ "P4::DoCheckCoreMethods", "class_p4_1_1_do_check_core_methods.html", null ],
         [ "P4::Evaluator", "class_p4_1_1_evaluator.html", null ],
@@ -1622,11 +1627,13 @@ var hierarchy =
         [ "P4::HasExits", "class_p4_1_1_has_exits.html", null ],
         [ "P4::HasTableApply", "class_p4_1_1_has_table_apply.html", null ],
         [ "P4::IfInParser", "class_p4_1_1_if_in_parser.html", null ],
+        [ "P4::InspectPsaProgram", "class_p4_1_1_inspect_psa_program.html", null ],
         [ "P4::IsLikeLeftValue", "class_p4_1_1_is_like_left_value.html", null ],
         [ "P4::IsNonConstantArrayIndex", "class_p4_1_1_is_non_constant_array_index.html", null ],
         [ "P4::KeyNameGenerator", "class_p4_1_1_key_name_generator.html", null ],
         [ "P4::MidEndLast", "class_p4_1_1_mid_end_last.html", null ],
         [ "P4::MinimalNameGenerator", "class_p4_1_1_minimal_name_generator.html", null ],
+        [ "P4::ParsePsaArchitecture", "class_p4_1_1_parse_psa_architecture.html", null ],
         [ "P4::ReadsWrites", "class_p4_1_1_reads_writes.html", null ],
         [ "P4::RemoveModifiedValues", "class_p4_1_1_remove_modified_values.html", null ],
         [ "P4::ResolveReferences", "class_p4_1_1_resolve_references.html", null ],
