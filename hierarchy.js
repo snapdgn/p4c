@@ -401,6 +401,7 @@ var hierarchy =
           [ "P4::IR::NodeMap< KEY, VALUE, MAP, COMP, ALLOC >", "class_p4_1_1_i_r_1_1_node_map.html", null ],
           [ "P4::IR::VectorBase", "class_p4_1_1_i_r_1_1_vector_base.html", [
             [ "P4::IR::Vector< IR::Type >", "class_p4_1_1_i_r_1_1_vector.html", null ],
+            [ "P4::IR::Vector< IR::Argument >", "class_p4_1_1_i_r_1_1_vector.html", null ],
             [ "P4::IR::Vector< IR::DpdkAsmStatement >", "class_p4_1_1_i_r_1_1_vector.html", [
               [ "P4::IR::IndexedVector< IR::DpdkAsmStatement >", "class_p4_1_1_i_r_1_1_indexed_vector.html", null ]
             ] ],
@@ -434,7 +435,6 @@ var hierarchy =
             [ "P4::IR::Vector< IR::StructField >", "class_p4_1_1_i_r_1_1_vector.html", [
               [ "P4::IR::IndexedVector< IR::StructField >", "class_p4_1_1_i_r_1_1_indexed_vector.html", null ]
             ] ],
-            [ "P4::IR::Vector< IR::Argument >", "class_p4_1_1_i_r_1_1_vector.html", null ],
             [ "P4::IR::Vector< IR::ParserState >", "class_p4_1_1_i_r_1_1_vector.html", [
               [ "P4::IR::IndexedVector< IR::ParserState >", "class_p4_1_1_i_r_1_1_indexed_vector.html", null ]
             ] ],
@@ -696,14 +696,18 @@ var hierarchy =
     [ "P4::P4Tools::NamespaceContext", "class_p4_1_1_p4_tools_1_1_namespace_context.html", null ],
     [ "P4::P4Tools::P4Constants", "class_p4_1_1_p4_tools_1_1_p4_constants.html", null ],
     [ "P4::P4Tools::P4Smith::Constraints", "struct_p4_1_1_p4_tools_1_1_p4_smith_1_1_constraints.html", null ],
+    [ "P4::P4Tools::P4Smith::Declarations", "struct_p4_1_1_p4_tools_1_1_p4_smith_1_1_declarations.html", null ],
     [ "P4::P4Tools::P4Smith::Generator", "class_p4_1_1_p4_tools_1_1_p4_smith_1_1_generator.html", [
       [ "P4::P4Tools::P4Smith::DeclarationGenerator", "class_p4_1_1_p4_tools_1_1_p4_smith_1_1_declaration_generator.html", null ],
-      [ "P4::P4Tools::P4Smith::ExpressionGenerator", "class_p4_1_1_p4_tools_1_1_p4_smith_1_1_expression_generator.html", null ],
+      [ "P4::P4Tools::P4Smith::ExpressionGenerator", "class_p4_1_1_p4_tools_1_1_p4_smith_1_1_expression_generator.html", [
+        [ "P4::P4Tools::P4Smith::NicExpressionGenerator", "class_p4_1_1_p4_tools_1_1_p4_smith_1_1_nic_expression_generator.html", null ]
+      ] ],
       [ "P4::P4Tools::P4Smith::ParserGenerator", "class_p4_1_1_p4_tools_1_1_p4_smith_1_1_parser_generator.html", null ],
       [ "P4::P4Tools::P4Smith::StatementGenerator", "class_p4_1_1_p4_tools_1_1_p4_smith_1_1_statement_generator.html", null ],
       [ "P4::P4Tools::P4Smith::TableGenerator", "class_p4_1_1_p4_tools_1_1_p4_smith_1_1_table_generator.html", null ]
     ] ],
     [ "P4::P4Tools::P4Smith::P4Scope", "class_p4_1_1_p4_tools_1_1_p4_smith_1_1_p4_scope.html", null ],
+    [ "P4::P4Tools::P4Smith::Probabilities", "struct_p4_1_1_p4_tools_1_1_p4_smith_1_1_probabilities.html", null ],
     [ "P4::P4Tools::P4Smith::Properties", "struct_p4_1_1_p4_tools_1_1_p4_smith_1_1_properties.html", null ],
     [ "P4::P4Tools::P4Smith::Requirements", "struct_p4_1_1_p4_tools_1_1_p4_smith_1_1_requirements.html", null ],
     [ "P4::P4Tools::P4Smith::Wordlist", "class_p4_1_1_p4_tools_1_1_p4_smith_1_1_wordlist.html", null ],
@@ -1888,6 +1892,7 @@ var hierarchy =
     ] ],
     [ "std::vector< T >", null, [
       [ "P4::safe_vector< const IR::Type * >", "class_p4_1_1safe__vector.html", null ],
+      [ "P4::safe_vector< const IR::Argument * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const IR::DpdkAsmStatement * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const P4::IR::Node * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const IR::Declaration * >", "class_p4_1_1safe__vector.html", null ],
@@ -1899,7 +1904,6 @@ var hierarchy =
       [ "P4::safe_vector< const IR::Parameter * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const IR::DpdkDeclaration * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const IR::StructField * >", "class_p4_1_1safe__vector.html", null ],
-      [ "P4::safe_vector< const IR::Argument * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const T * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const IR::ParserState * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const Constraint * >", "class_p4_1_1safe__vector.html", null ],
