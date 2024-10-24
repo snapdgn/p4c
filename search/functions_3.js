@@ -7,7 +7,7 @@ var searchData=
   ['deletetestobject_4',['deleteTestObject',['../class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_execution_state.html#a2d22d4a2af2b4b707898e49c8d710856',1,'P4::P4Tools::P4Testgen::ExecutionState']]],
   ['deletetestobjectcategory_5',['deleteTestObjectCategory',['../class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_execution_state.html#a4f2137e4cba97f6f8b82c38eded0d173',1,'P4::P4Tools::P4Testgen::ExecutionState']]],
   ['depthfirstsearch_6',['DepthFirstSearch',['../class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_depth_first_search.html#a4a961e34c1e84356204e48252b66199e',1,'P4::P4Tools::P4Testgen::DepthFirstSearch']]],
-  ['diagnose_7',['diagnose',['../class_p4_1_1_error_reporter.html#a4a873bca1529eee3407ac37cf1a0e07f',1,'P4::ErrorReporter::diagnose()'],['../namespace_p4.html#af5c8aefbbccc22f92e579a0d3dd652a2',1,'P4::diagnose(DiagnosticAction defaultAction, const char *diagnosticName, const char *format, const char *suffix, Args &amp;&amp;...args)']]],
+  ['diagnose_7',['diagnose',['../class_p4_1_1_error_reporter.html#a4a873bca1529eee3407ac37cf1a0e07f',1,'P4::ErrorReporter']]],
   ['diagnosticcount_8',['diagnosticCount',['../namespace_p4.html#a61e4c327119249aa7fb8cdf771f2dc74',1,'P4']]],
   ['diagnosticcountinfo_9',['DiagnosticCountInfo',['../struct_p4_1_1_diagnostic_count_info.html#afd8795dc3d740785fdd73c245e5337d1',1,'P4::DiagnosticCountInfo']]],
   ['diagnosticcountinfoguard_10',['DiagnosticCountInfoGuard',['../struct_p4_1_1_diagnostic_count_info_guard.html#a9a3a009109abd31efe93c03a2086a00f',1,'P4::DiagnosticCountInfoGuard']]],
@@ -16,5 +16,6 @@ var searchData=
   ['dpdkmidend_13',['DpdkMidEnd',['../class_p4_1_1_d_p_d_k_1_1_dpdk_mid_end.html#a5ebe1657f153be3667df31cb3c2670b1',1,'P4::DPDK::DpdkMidEnd']]],
   ['dropisactive_14',['dropIsActive',['../class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_program_info.html#a31c44e3048c6b0f307a39ed78ca1eee1',1,'P4::P4Tools::P4Testgen::ProgramInfo::dropIsActive()'],['../class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_v1_model_program_info.html#a4273d687c343f876d3f71840d91d25b6',1,'P4::P4Tools::P4Testgen::Bmv2::Bmv2V1ModelProgramInfo::dropIsActive()'],['../class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_e_b_p_f_1_1_e_b_p_f_program_info.html#af1c0b171c53f8abe72c9ca94772193f3',1,'P4::P4Tools::P4Testgen::EBPF::EBPFProgramInfo::dropIsActive()'],['../class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_program_info.html#a37608e0b73ac918596df94007ac5f36c',1,'P4::P4Tools::P4Testgen::Pna::SharedPnaProgramInfo::dropIsActive()']]],
   ['droponnomatchingentryfound_15',['dropOnNoMatchingEntryFound',['../class_p4_1_1_e_b_p_f_1_1_e_b_p_f_table.html#a3389f9c9fe8f4117b7e8bc35b6d71a54',1,'P4::EBPF::EBPFTable::dropOnNoMatchingEntryFound()'],['../class_p4_1_1_e_b_p_f_1_1_e_b_p_f_table_p_s_a.html#af04a2ab6f38ca471031cbe7ed0e65d2c',1,'P4::EBPF::EBPFTablePSA::dropOnNoMatchingEntryFound()']]],
-  ['dumppass_16',['dumpPass',['../class_p4_1_1_parser_options.html#a665e3adf6f5e083e426e261f9be97e66',1,'P4::ParserOptions']]]
+  ['dump_16',['dump',['../class_p4_1_1_to_p4.html#a0f24f5f607b85aef874c876844bea8a3',1,'P4::ToP4']]],
+  ['dumppass_17',['dumpPass',['../class_p4_1_1_parser_options.html#a665e3adf6f5e083e426e261f9be97e66',1,'P4::ParserOptions']]]
 ];
