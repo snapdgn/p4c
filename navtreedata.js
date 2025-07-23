@@ -48,11 +48,12 @@ var NAVTREE =
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
+        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
+        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
         [ "Variables", "namespacemembers_vars.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ]
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -75,29 +76,47 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_p4_1_1_b_m_v2_1_1_pna_enum_on32_bits.html",
-"class_p4_1_1_control_plane_a_p_i_1_1_p4_info_maps.html#a86e1122034c7cfce19194f0f3a48641c",
-"class_p4_1_1_d_p_d_k_1_1_direction_to_reg_read.html",
-"class_p4_1_1_do_convert_enums.html",
-"class_p4_1_1_e_b_p_f_1_1_e_b_p_f_ingress_pipeline.html",
-"class_p4_1_1_e_b_p_f_1_1_x_d_p_egress_deparser_p_s_a.html#a1d80e3d5ff6159309795ac9000dd9e57",
-"class_p4_1_1_i_r_1_1_vector.html#a43e34c8d1aa9b5d4de46a934f05af9e7",
-"class_p4_1_1_p4_tools_1_1_abstract_p4c_tool.html",
-"class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_test_backend.html#aab9a6d3948d7b1b1be221c93c2cd925d",
-"class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_token.html#a8bfad2624a29edb0e63d9af19443bd7b",
-"class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_expr_stepper.html#a0b8f7a79e07a6a7296c5f17e3e6de5d0",
-"class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_program_info.html#acca77f233f6f692f42cb5778bf72478f",
-"class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_test_framework.html#a5eaddadaca6cf2a08134bf5666dd93d0",
-"class_p4_1_1_p4_tools_1_1_trace_events_1_1_assignment_statement.html#a559ffcfb11a58d1e97e2ddfdd34acb64",
-"class_p4_1_1_parser_options.html#a5340ee56a38043493e903dc08f14f77d",
-"class_p4_1_1_replace_type_uses.html",
-"class_p4_1_1_t_c_1_1_introspection_generator.html",
-"class_p4_1_1_util_1_1_map_enumerator.html",
-"contribute.html",
-"namespace_p4_1_1_p4_tools.html#a00301b84e5252bf2ec7c669d5363c67c",
-"struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_p_s_a_arch_handler_builder.html#aca6d71bc254a18a81e0ced526a9610f2",
-"struct_p4_1_1_p4_tools_1_1_table_utils_1_1_key_properties.html#a5bae092a74d8d58e68e4fb149a0472b4"
+"class_b_f_n_1_1_b_f_r_t_1_1_b_f_runtime_generator.html#afa58d93eafd2ca7ccfd8ccf3bf6220f0",
+"class_b_f_n_1_1_resolve_size_of_operator.html",
+"class_constraints_1_1_alignment_constraint.html",
+"class_header_name_mau_inspector.html#ac8de9ac8ecf93ee6e469c880e5bca3a0",
+"class_mau_power_1_1_mpr_settings.html#afd19b502c29d0bea3bb4dd0d3b5a0496",
+"class_p4_1_1_b_m_v2_1_1_json_objects.html#a395d9d3366a662b0344dab45a15f34b3",
+"class_p4_1_1_compute_write_set.html#a0f1f0ef207ccf9849813aedcb1384c94",
+"class_p4_1_1_d_p_d_k_1_1_collect_internet_checksum_instance.html",
+"class_p4_1_1_default_p4_c_configuration.html",
+"class_p4_1_1_e_b_p_f_1_1_e_b_p_f_checksum_p_s_a.html",
+"class_p4_1_1_e_b_p_f_1_1_internet_checksum_algorithm.html#a8831546cf7cfd9f29889f18dcb48655e",
+"class_p4_1_1_find_type_specializations.html",
+"class_p4_1_1_nesting_depth_metric_pass.html",
+"class_p4_1_1_p4_tools_1_1_namespace_context.html#a7ad34518222d149b4c4c53cf1689005b",
+"class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_v1_model_register_value.html",
+"class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_exact.html#a01e3029bcbda82c53880fce621383163",
+"class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_optional.html#af7e228d8d612d08ac40ca40469ee31c6",
+"class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_table_config.html#a23f8eebd0455fe124640a5c71a45307b",
+"class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_tofino_1_1_index_map.html",
+"class_p4_1_1_p4_tools_1_1_trace_event.html",
+"class_p4_1_1_p4_v1_1_1_modify_parser_for_checksum.html",
+"class_p4_1_1_reassociation.html",
+"class_p4_1_1_substitute_parameters.html",
+"class_p4_1_1_test_1_1_pa_container_size_pragma_test.html",
+"class_p4_1_1_u_b_p_f_1_1_u_b_p_f_deparser_translation_visitor.html",
+"class_p4_1_1basic__nullbuf.html",
+"class_p_h_v_1_1_allocation.html#ae307cfa59fe838dab51d1e78f0c1d50b",
+"class_p_h_v_1_1_field_slice.html#a5063790411cc38018047b454125e1499",
+"class_p_h_v_1_1_validate_allocation.html",
+"class_pragma_container_type.html#a0dd873c0716f21d1f2fdf10656b3a7a4",
+"classassoc_1_1map.html",
+"namespace_p4.html#a1c25849ac917e7b9f22873a29cc6c91b",
+"namespace_p4_1_1_test.html#a7ae07a8402c9fe7b6a7915cb6417fe0a",
+"struct_action_data_1_1_unique_location_key.html",
+"struct_b_f_n_1_1_resolve_header_stack_index.html",
+"struct_p4_1_1_b_m_v2_1_1_conversion_context.html#a076556db182c17ad8d006615d67bbe05",
+"struct_p4_1_1_e_b_p_f_1_1_counter_array___model.html",
+"struct_p4_1_1_p4_v1_1_1_parser_counter_select_expr_converter.html",
+"struct_p_h_v_1_1_mini_alloc.html#ac7654b24aca92af257f39166a86704d0",
+"struct_tofino_1_1_action_data_bus.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';
